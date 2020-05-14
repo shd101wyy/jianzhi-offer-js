@@ -1,10 +1,13 @@
 ---
+notebook:
+    owner: shd101wyy
 note:
     createdAt: 2020-05-14T10:48:10.847Z
-    modifiedAt: 2020-05-14T13:19:32.210Z
+    modifiedAt: 2020-05-14T15:41:31.568Z
     tags: []
     pinned: true
 ---
+
 # 剑指Offer 笔记本 JS 版本
 [推荐在交叉笔记中阅读该笔记本](https://crossnote.app/?repo=https%3A%2F%2Fgithub.com%2Fshd101wyy%2Fjianzhi-offer-js.git&branch=master&filePath=README.md)
 <!-- @crossnote.comment "id":"73ca1ec2-3416-437d-8b68-4379712c32b2" -->  

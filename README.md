@@ -3,13 +3,13 @@ notebook:
     owner: shd101wyy
 note:
     createdAt: 2020-05-14T10:48:10.847Z
-    modifiedAt: 2020-05-14T15:47:23.470Z
+    modifiedAt: 2020-05-15T04:12:32.856Z
     tags: []
     pinned: true
 ---
 
 # 剑指Offer 笔记本 JS 版本
-[推荐在“Crossnote 交叉笔记”中阅读该笔记本](https://crossnote.app/?repo=https%3A%2F%2Fgithub.com%2Fshd101wyy%2Fjianzhi-offer-js.git&branch=master&filePath=README.md)   
+[推荐在“Crossnote 交叉笔记”中阅读该笔记本](https://crossnote.app/?repo=https%3A%2F%2Fgithub.com%2Fshd101wyy%2Fjianzhi-offer-js.git&branch=master&filePath=README.md)    - 可离线阅读
 我打好了一些标签。  
 <!-- @crossnote.comment "id":"73ca1ec2-3416-437d-8b68-4379712c32b2" -->  
 由于 Leetcode 的题目太多，所以这里选中了《剑指 Offer》来进行刷题。

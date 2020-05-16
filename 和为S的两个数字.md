@@ -1,7 +1,7 @@
 ---
 note:
     createdAt: 2020-05-14T12:40:36.947Z
-    modifiedAt: 2020-05-14T14:17:17.971Z
+    modifiedAt: 2020-05-16T13:28:33.422Z
     tags: [考点/知识迁移能力, 难度/3]
     id: ""
 ---
@@ -22,18 +22,18 @@ note:
 ```javascript
 function FindNumbersWithSum(array, sum) {
   var low = 0,
-    height = array.length - 1;
+    high = array.length - 1;
   var currentSum = 0,
     result = [];
-  while (low < height) {
-    currentSum = array[low] + array[height];
+  while (low < high) {
+    currentSum = array[low] + array[high];
     if (sum === currentSum) {
-      result.push([array[low], array[height]]);
+      result.push([array[low], array[high]]);
       low++;
     } else if (currentSum < sum) {
       low++;
     } else {
-      height--;
+      high--;
     }
   }
   if (result.length === 0) {
@@ -42,7 +42,4 @@ function FindNumbersWithSum(array, sum) {
     return result[0];
   }
 }
-module.exports = {
-  FindNumbersWithSum: FindNumbersWithSum,
-};
 ```

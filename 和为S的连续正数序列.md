@@ -1,7 +1,7 @@
 ---
 note:
     createdAt: 2020-05-14T12:30:56.928Z
-    modifiedAt: 2020-05-14T15:39:17.912Z
+    modifiedAt: 2020-05-16T13:26:48.666Z
     tags: [考点/知识迁移能力, 难度/3]
     id: ""
 ---
@@ -22,24 +22,24 @@ note:
 
 ```javascript
 /*
-*初始化small=1，big=2;
-*small到big序列和小于sum，big++;大于sum，small++;
-*当small增加到(1+sum)/2是停止
+*初始化 low=1，high=2;
+*low 到 high 序列和小于 sum，high++;大于sum，low++;
+*当 low 增加到(1+sum)/2是停止
 *
  */
 
 function FindContinuousSequence(sum) {
   var results = [];
   var low = 1,
-    height = 2;
+    high = 2;
   // 从1，2开始
-  var currentSum = low + height;
+  var currentSum = low + high;
 
-  while (low < height) {
+  while (low < high) {
     // 如果满足条件，进栈
     if (currentSum === sum) {
       var result = [];
-      for (var i = low; i <= height; ++i) {
+      for (var i = low; i <= high; ++i) {
         result.push(i);
       }
       results.push(result);
@@ -48,8 +48,8 @@ function FindContinuousSequence(sum) {
       low++;
     } else if (currentSum < sum) {
       // 总和不满足则继续增加数组数量
-      height++;
-      currentSum += height;
+      high++;
+      currentSum += high;
     } else {
       // 超过总和,减去最小的值
       currentSum -= low;
@@ -58,7 +58,4 @@ function FindContinuousSequence(sum) {
   }
   return results;
 }
-module.exports = {
-  FindContinuousSequence: FindContinuousSequence,
-};
 ```

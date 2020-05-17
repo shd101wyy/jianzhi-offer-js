@@ -4,7 +4,7 @@ notebook:
     name: 剑指Offer
 note:
     createdAt: 2020-05-14T10:48:10.847Z
-    modifiedAt: 2020-05-16T12:41:34.396Z
+    modifiedAt: 2020-05-17T07:58:04.854Z
     tags: []
     pinned: true
 ---
@@ -24,4 +24,8 @@ note:
 虽然本人一直觉得刷题意义不大，奈何大趋势如此我也没有办法 :joy:   
 
 痛心疾首嗷
+
+---
+
+发现用 JavaScript 来答题可能不是最优的方式，因为很多内置函数降低了题目的回答难度。  
 

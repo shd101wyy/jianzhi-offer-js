@@ -1,7 +1,7 @@
 ---
 note:
     createdAt: 2020-05-14T12:45:36.643Z
-    modifiedAt: 2020-05-14T14:38:16.659Z
+    modifiedAt: 2020-05-17T07:43:40.189Z
     tags: [考点/代码的鲁棒性, 难度/4]
     id: ""
 ---
@@ -30,7 +30,4 @@ function FindKthToTail(head, k) {
   temp = temp.reverse();
   return temp[k - 1];
 }
-module.exports = {
-  FindKthToTail: FindKthToTail,
-};
 ```

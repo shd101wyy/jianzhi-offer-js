@@ -1,7 +1,7 @@
 ---
 note:
     createdAt: 2020-05-14T12:45:52.637Z
-    modifiedAt: 2020-05-14T14:39:56.754Z
+    modifiedAt: 2020-05-17T08:20:43.727Z
     tags: [考点/举例让抽象具体化, 难度/4]
     id: ""
 ---
@@ -45,7 +45,4 @@ function createStack() {
     push,
   };
 }
-
-let stack = createStack();
-stack.push(5);
 ```

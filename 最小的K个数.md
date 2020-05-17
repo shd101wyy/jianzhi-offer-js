@@ -1,7 +1,7 @@
 ---
 note:
     createdAt: 2020-05-14T12:45:15.404Z
-    modifiedAt: 2020-05-14T14:37:22.385Z
+    modifiedAt: 2020-05-17T07:57:02.972Z
     tags: [难度/4]
     id: ""
 ---
@@ -22,7 +22,4 @@ function GetLeastNumbers_Solution(input, k) {
   var temp = input.sort();
   return temp.slice(0, k);
 }
-module.exports = {
-  GetLeastNumbers_Solution: GetLeastNumbers_Solution,
-};
 ```

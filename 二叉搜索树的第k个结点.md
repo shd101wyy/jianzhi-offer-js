@@ -1,7 +1,7 @@
 ---
 note:
     createdAt: 2020-05-14T12:43:00.638Z
-    modifiedAt: 2020-05-14T14:26:58.375Z
+    modifiedAt: 2020-05-17T08:25:07.342Z
     tags: [考点/树, 难度/4]
     id: ""
 ---
@@ -37,9 +37,5 @@ function KthNode(pRoot, k) {
   }
   mInorder(pRoot, k);
   return aid[k - 1];
-  // write code here
 }
-module.exports = {
-  KthNode: KthNode,
-};
 ```
